@@ -51,6 +51,7 @@
 @media (max-width: 740px){
     .section_edition{
         margin-left: 0vh;
+        width: 100vw;
     }
     
 }

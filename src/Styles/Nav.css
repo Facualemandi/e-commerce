@@ -47,14 +47,10 @@
 
 
 
-@media (max-width: 1220px){
-    .nav_container{
-        width: 100vh;
-    }
-}
+
 @media (max-width: 940px){
     .nav_container{
-        width: 60vh;
+        width: 100vw;
     }
     .ul_container li{
         display: none;
@@ -64,6 +60,6 @@
         display: block;
     }
     .hr{
-        width: 60vh;
+        width: 100vw;
     }
 }

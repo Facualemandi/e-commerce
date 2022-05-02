@@ -21,4 +21,17 @@
 }
 
 @media (max-width:740px){
+    .shoesBig{
+        width: 100vw;
+    }
+
+    .shoesBig img{
+        width: 100vw;
+    }
+    .shoesSmall{
+        width: 100vw;
+    }
+    .shoesSmall img{
+        width: 11vh;
+    }
 }
