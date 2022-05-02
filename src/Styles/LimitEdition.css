@@ -49,6 +49,9 @@
 }
 
 @media (max-width: 940px){
+    .h1_limitEdition{
+        width: 100vw;
+    }
 
     .section_edition{
         margin-top: 3vh;
