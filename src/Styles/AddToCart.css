@@ -30,3 +30,22 @@
     border-radius: 5px;
     background-color: hsl(223, 64%, 98%);
 }
+
+@media (max-width: 940px){
+    .section_cart_add{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonAdd{
+        width: 100vw;
+        height: 40px;
+        padding: 1vh;
+    }
+
+    .plusOrMinus{
+        width: 100vw;
+        height: 40px;
+        padding: 1vh;
+        margin-bottom: 1vh;
+    }
+}

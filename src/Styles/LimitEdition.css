@@ -47,3 +47,19 @@
     text-decoration: line-through;
     color: hsl(0, 0%, 69%);
 }
+
+@media (max-width: 940px){
+
+    .section_edition{
+        margin-top: 3vh;
+    }
+    .container_price{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .section_edition p{
+     width: 100vw;
+    }
+}

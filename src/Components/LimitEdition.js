@@ -16,8 +16,10 @@ const LimitEdition = () => {
       </p>
 
       <div className='container_price'>
+        <div className='div_price_container'>
           <span className='span_price'> $125.00 </span>
           <span className='span_discount'> 50% </span>
+        </div>
 
           <div className='discount'>
               <span>$250.00</span>
