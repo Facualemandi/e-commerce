@@ -33,7 +33,7 @@ const Nav = () => {
            </div>
      </nav>
 
-     <hr/>
+     <hr className='hr'/>
      
 
      </>

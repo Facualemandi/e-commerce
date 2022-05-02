@@ -45,7 +45,8 @@
 }
 @media (max-width: 940px){
     .nav_container{
-        width: 100vw;
+        width: 60vh;
+        border: 1px solid red;
     }
     .ul_container li{
         display: none;
@@ -53,5 +54,8 @@
 
     .iconBurger{
         display: block;
+    }
+    .hr{
+        width: 60vh;
     }
 }
