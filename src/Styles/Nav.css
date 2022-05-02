@@ -46,7 +46,6 @@
 @media (max-width: 940px){
     .nav_container{
         width: 60vh;
-        border: 1px solid red;
     }
     .ul_container li{
         display: none;
