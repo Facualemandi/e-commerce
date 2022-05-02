@@ -1,6 +1,5 @@
 .section_edition{
     width: 60vh;
-    margin-left: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,21 +47,8 @@
     color: hsl(0, 0%, 69%);
 }
 
-@media (max-width: 940px){
-    .h1_limitEdition{
-        width: 100vw;
-    }
-
+@media (max-width: 740px){
     .section_edition{
-        margin-top: 3vh;
     }
-    .container_price{
-        display: flex;
-        justify-content: space-between;
-        width: 100vw;
-    }
-
-    .section_edition p{
-     width: 100vw;
-    }
+    
 }

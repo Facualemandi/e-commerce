@@ -35,17 +35,18 @@
     .section_cart_add{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        width: 60vh;
     }
     .buttonAdd{
-        width: 100vw;
-        height: 40px;
-        padding: 1vh;
+        width: auto;
+        height: 35px;
+
     }
 
     .plusOrMinus{
-        width: 100vw;
-        height: 40px;
-        padding: 1vh;
-        margin-bottom: 1vh;
+        width: auto;
+        height: 35px;
+
     }
 }
