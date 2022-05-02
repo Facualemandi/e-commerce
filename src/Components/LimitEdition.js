@@ -1,7 +1,10 @@
 import AddCart from '../Components/AddCart';
 import React from "react";
 import '../Styles/LimitEdition.css'
-const LimitEdition = () => {
+
+
+
+const LimitEdition = ({addCart, add, removeCart, addToCart}) => {
   return (
     <section className='section_edition'>
 
@@ -26,7 +29,7 @@ const LimitEdition = () => {
           </div>
       </div>
 
-          <AddCart/>
+          <AddCart addCart={addCart} add={add} removeCart={removeCart} addToCart={addToCart}/>
 
     </section>
   );

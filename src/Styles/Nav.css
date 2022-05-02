@@ -36,6 +36,15 @@
     display: none;
 }
 
+.totalItemsCart{
+    padding: 0.2vh;
+    width: 2.5vh;
+    background-color: hsl(26, 100%, 55%);
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 100%;
+}
+
 
 
 @media (max-width: 1220px){

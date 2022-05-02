@@ -16,5 +16,9 @@
    border-radius: 15px;
 }
 
+.totalImageShoes{
+    cursor: pointer;
+}
+
 @media (max-width:740px){
 }

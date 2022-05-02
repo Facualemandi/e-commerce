@@ -4,17 +4,17 @@ import plus from '../Images/icon-plus.svg';
 import cart from '../Images/icon-cart.svg';
 import '../Styles/AddToCart.css';
 
-const AddCart = () => {
+const AddCart = ({addCart, add , removeCart , addToCart}) => {
   return (
      <>
      <section className='section_cart_add'>
              <div className='plusOrMinus'>
-                <img alt='Minus' src={minus}/>
-                <span> 0 </span>
-                <img alt='Plus' src={plus}/>
+                <img className='minus' alt='Minus' src={minus} onClick={removeCart}/>
+                <span> {add} </span>
+                <img className='plus' alt='Plus' src={plus} onClick={addCart}/>
              </div>
               
-              <button className='buttonAdd'>
+              <button className='buttonAdd' onClick={addToCart} >
                   <img className='cartAdd' alt='Cart' src={cart}/>
                   Add to Cart
               </button>

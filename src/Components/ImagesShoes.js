@@ -12,7 +12,7 @@ import shoe4Small from '../Images/image-product-4-thumbnail.jpg'
 const ImagesShoes = () => {
   return (
      <>
-     <section>
+     <section className='totalImageShoes'>
           <div className='shoesBig'>
               <img alt='Shoes' src={shoe1Big}/>
           </div>

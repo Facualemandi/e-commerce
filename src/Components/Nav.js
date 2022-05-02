@@ -4,7 +4,7 @@ import cart from  '../Images/icon-cart.svg'
 import iconBurger from '../Images/icon-menu.svg'
 import '../Styles/Nav.css'
 
-const Nav = () => {
+const Nav = ({add, cartTotal}) => {
   return (
       <>
      <nav className='nav_container'>
@@ -21,8 +21,11 @@ const Nav = () => {
          </ul>
 
          <div className='cart'>
-
+           
+             {cartTotal ? <p className='totalItemsCart'>{add}</p> : <p></p>}
+ 
              <img className='imgCart' alt='cart' src={cart}/>
+
              
              <img className='gmailIcon' alt='gmail' src='https://lh3.googleusercontent.com/ogw/ADea4I73SbBbdyG6FlnYozO4SuIktQTPH5Y3pXA-U136=s32-c-mo'/>
 
