@@ -1,0 +1,57 @@
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 130vh;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.ul_container{
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.ul_container li{
+    margin-left: 5vh;
+    color: gray;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart .imgCart{
+   margin: 1vh;
+}
+.cart .gmailIcon{
+    border-radius: 100%;
+}
+
+.iconBurger{
+    display: none;
+}
+
+
+
+@media (max-width: 1220px){
+    .nav_container{
+        width: 100vh;
+    }
+}
+@media (max-width: 940px){
+    .nav_container{
+        width: 100vw;
+    }
+    .ul_container li{
+        display: none;
+    }
+
+    .iconBurger{
+        display: block;
+    }
+}

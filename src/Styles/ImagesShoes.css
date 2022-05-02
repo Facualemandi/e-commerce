@@ -1,0 +1,17 @@
+.shoesBig img{
+    width: 60vh;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.shoesSmall {
+    width: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoesSmall img{
+   width: 14.5vh;
+   padding: 0.5vh;
+   border-radius: 15px;
+}

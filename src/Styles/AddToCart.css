@@ -1,0 +1,32 @@
+.section_cart_add{
+    display: flex;
+    justify-content: space-between;
+    width: 40vh;
+    margin: 1vh;
+}
+.buttonAdd{
+    width: 20vh;
+    padding: 1vh;
+    border-radius: 5px;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.cartAdd{
+    margin-right: 5px;
+
+}
+
+.plusOrMinus{
+    width: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: hsl(223, 64%, 98%);
+}
