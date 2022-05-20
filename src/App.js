@@ -35,6 +35,8 @@ function App() {
   <>
     <Nav add={add} cartTotal={cartTotal}/>
 
+    <a href="https://api.whatsapp.com/send?phone=543517653448"> Enviar por WhasApp </a>
+
     <main className="mainContainer">
 
       <ImagesShoes/>
